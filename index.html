@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <table cellspacing="15">
+      <tr>
+        <td><img src="images/monkey.jpg"  
+          alt="Мое фото" class="avatar"></td>
+        <td>
+          <h1>Александр Басов</h1>
+          <p><em>Это сайт обо мне</em></p>
+          <p>Мне 19 лет, я люблю путешевствовать, заниматься спортом и програмировать</p>
+        </td>
+      </tr>
+    </table>
+    
+    <hr>
+
+    <h2>Мои социальные сети</h2>
+    <ul type="circle">
+      <li><a href="https://vk.com/mel1house" target="_blank">vkontakte</a></li>
+      <li><a href="https://web.telegram.org/" target="_blank">telegram</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>Мои хобби</h2>
+    <ol>
+      <li>Программирование</li>
+      <li>Спорт</li>
+      <li>Путешествия</li>
+    </ol>
+
+    <hr>
+
+    <h2>Опыт работы</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Компания</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>EPAM</td>
+          <td>Software Enginer</td>
+          <td>2016-2017</td>
+        </tr>
+        <tr>
+          <td>Software Outsorcing Services</td>
+          <td>Lead Frintend</td>
+          <td>2018-2019</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h2>YouTube курсы</h2>
+    <a href="youtube.html">Посмотреть курсы</a>
+
+    <hr>
+
+    <h2>Связаться со мной</h2>
+    <form action="/">
+      <label for="name">Ваше имя</label>
+      <input type="text" id="name" placeholder="Начните вводить ваше имя"><br><br>
+      
+      <label for="email">Ваш Email</label>
+      <input type="email" id="email" placeholder="Введите Email"><br><br>
+
+      <label for="text">Ваше сообщение</label><br>
+      <textarea id="text"></textarea><br><br>
+      
+      <input type="submit" value="Связаться">
+    </form>
+  </body>
+</html>
